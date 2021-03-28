@@ -1,3 +1,4 @@
+//미완성 코드, 작성 중
 #include <gl/glut.h>
 #include <GL/GL.h>
 #include <GL/GLU.h>
