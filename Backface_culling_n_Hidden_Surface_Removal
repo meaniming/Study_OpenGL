@@ -26,8 +26,8 @@ void InitLight() {
 
 void Initvisibility() {
 	glEnable(GL_CULL_FACE); //후면 제거 활성화
-	glEnable(GL_CW); // 표면, 이면 구분 (시계방향) 
-	glCullFace(GL_FRONT); // 후면 제거
+	glFrontFace(GL_CW); // 표면, 이면 구분 (시계방향) 
+	glCullFace(GL_BACK); // 후면 제거
 	glEnable(GL_DEPTH_TEST); //은면 제거
 }
 
