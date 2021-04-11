@@ -53,6 +53,7 @@ int main(int argc, char** argv) {
 	glutInitWindowSize(700, 700);
 	glutInitWindowPosition(0, 0);
 	glutCreateWindow("OpenGL Sample Drawing");
+	glClearColor(0.5, 0.5, 0.5, 0.0);
 	InitLight();
 	Initvisibility();
 	glutDisplayFunc(MyDisplay);
